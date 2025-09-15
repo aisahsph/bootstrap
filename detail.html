@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Blog - Kakak Asuh</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="index.html">Simple Blog</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="container content-section">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <h2 class="fw-bold text-primary mb-4">Pengalaman Menjadi Kakak Asuh</h2>
+        <img src="img/kasuh.jpg" class="img-fluid rounded shadow mb-4" alt="Kakak Asuh">
+        <p>
+            Hari pertama aku resmi menjadi kakak asuh di Institut Teknologi Del, aku merasa campuran antara bangga, gugup, sekaligus penasaran. 
+            Program ini bukan sekadar formalitas, melainkan sebuah amanah: bagaimana aku, yang hanya beberapa semester lebih tua, 
+            bisa menjadi penopang bagi adik-adik baru yang masih mencari arah.
+        </p>
+        <p>
+            Malam pertama di asrama, aku mendapat jadwal pertemuan kecil dengan kelompok asuhanku. Ada lima orang adik tingkat, wajah mereka 
+            terlihat canggung, beberapa tampak malu-malu, ada juga yang sudah mulai banyak bicara. Aku memulai dengan perkenalan sederhana, 
+            lalu bercerita tentang pengalaman pribadiku: bagaimana aku dulu juga pernah bingung menghadapi kuliah yang padat, bagaimana rasanya homesick, 
+            dan bagaimana akhirnya aku bisa beradaptasi. Saat aku cerita, mereka mulai tertawa, bahkan ada yang akhirnya berani mengajukan pertanyaan-
+            pertanyaan kecil. Dari situ aku sadar, tugas kakak asuh bukan sekadar mengawasi, tetapi menciptakan rasa aman.
+        </p>
+         <p>
+            Menjadi kakak asuh di IT Del membuatku sadar, bahwa kepemimpinan bukan hanya soal memberi instruksi, tapi tentang hadir ketika 
+            orang lain membutuhkan. Aku belajar bahwa hubungan ini bukan satu arah. Aku menguatkan adik-adikku, tetapi pada saat yang sama, 
+            mereka juga mengajarkanku arti kedewasaan, rasa syukur, dan bagaimana sebuah komunitas bisa bertahan karena ada ikatan saling peduli.
+        </p>
+        <p>
+            Menjadi kakak asuh memang melelahkan, tapi bagiku, itu adalah salah satu pengalaman paling berharga selama kuliah di Institut Teknologi 
+            Del—pengalaman yang bukan hanya membentuk mereka, tetapi juga membentuk diriku sendiri.
+        </p>
+        <div class="gallery my-4">
+          <img src="img/kasuh1.jpg" class="img-thumbnail" alt="Foto 1">
+          <img src="img/kasuh3.jpg" class="img-thumbnail" alt="Foto 2">
+          <img src="img/kasuh2.jpg" class="img-thumbnail" alt="Foto 3">
+          <img src="img/kasuh.jpg" class="img-thumbnail" alt="Foto 3">
+        </div>
+        <a href="index.html" class="btn btn-secondary mt-3">← Kembali</a>
+
+        <!-- Kolom Komentar -->
+        <div class="comment-section mt-5">
+          <h4 class="fw-bold mb-3">Komentar</h4>
+
+          <!-- Daftar Komentar yang Sudah Ada -->
+          <div class="mb-4">
+            <div class="p-3 mb-3 border rounded bg-light">
+              <strong>Rani</strong> <span class="text-muted small">- 12 September 2025</span>
+              <p class="mb-0">Wah kak, ceritanya menginspirasi sekali. Semoga aku juga bisa jadi kakak asuh yang baik nanti!</p>
+            </div>
+            <div class="p-3 mb-3 border rounded bg-light">
+              <strong>Budi</strong> <span class="text-muted small">- 13 September 2025</span>
+              <p class="mb-0">Aku jadi teringat masa awal masuk IT Del, peran kakak asuh memang sangat membantu adaptasi kami.</p>
+            </div>
+            <div class="p-3 mb-3 border rounded bg-light">
+              <strong>Sinta</strong> <span class="text-muted small">- 14 September 2025</span>
+              <p class="mb-0">Tulisan ini hangat sekali, kerasa banget rasa peduli dan kebersamaannya. Salut kak!</p>
+            </div>
+          </div>
+
+          <!-- Form Komentar Baru -->
+          <h5 class="fw-bold mb-3">Tinggalkan Komentar</h5>
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="mb-3">
+              <label for="komentar" class="form-label">Komentar</label>
+              <textarea class="form-control" id="komentar" rows="4" placeholder="Tulis komentar Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Komentar</button>
+          </form>
+        </div>
+        <!-- End Kolom Komentar -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer py-4 text-center text-white">
+    <p class="mb-0">© 2025 Aisah Sipahutar</p>
+  </footer>
+</body>
+</html>
